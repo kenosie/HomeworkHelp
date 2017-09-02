@@ -1,14 +1,20 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Homework Help</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-	<div class="background">
-		<textarea class="form-control" style="background-color: whitesmoke; resize: none; height:90px; width: 500px; margin-left: 120px; margin-top: 50px;" placeholder="Ask your question here!"></textarea>
-	</div>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Homework Help</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/home.css">
+		<script src="//code.jquery.com/jquery.min.js">
+				$.get("navbar.html", function(data){
+				$("#nav-placeholder").replaceWith(data);
+			})
+		</script>
+	</head>
+	<body>
+		<div id="nav-placeholder"></div>
+		<div class="background">
+			<textarea class="form-control" style="background-color: whitesmoke; resize: none; height:90px; width: 500px; margin-left: 120px; margin-top: 50px;" placeholder="Ask your question here!"></textarea>
+		</div>
+	</body>
 </html>
