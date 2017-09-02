@@ -5,3 +5,7 @@
 .nav.navbar-nav li a {
   color: white;
 }
+
+.nav.navbar-nav.navbar-header {
+  color: white;
+}
