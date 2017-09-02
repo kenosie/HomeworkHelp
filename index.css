@@ -1,6 +1,7 @@
 .navbar-custom {
-  background-color: blue;
-  color:blue
-  border-color: blue;
-  text-color: white;
+  background-color: lightblue;
+}
+
+.nav.navbar-custom li a {
+  color: white;
 }
