@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
-    <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Homework Help</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="css/index.css">
       <script src="//code.jquery.com/jquery.min.js"></script>
       <script>
         $.get("navbar.html", function(data){
@@ -12,10 +13,3 @@
         })
       </script>
     </head>
-		<body>
-      <div id="nav-placeholder"></div>
-		  <h1 style="margin-left: 20px;">Follow the TJ Honor Code!</h1>
-		  <p style="margin-left: 20px;">Please do not ask for answers to questions that violate academic integrity. No cheating!</p>
-		  <a class="btn btn-default" style="margin-left: 20px" href="home.html" role="button">Enter</a>
-		</body>
-</html>
